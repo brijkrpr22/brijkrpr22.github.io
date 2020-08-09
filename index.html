@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 
+        <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+
+
     <style>
         .clickIcon {
             height: 50px;
@@ -100,39 +105,47 @@
 
 
 
-            <!------- Tech Stack------->
+            <!------- Tech Stack------->   
 
-
-            <div class="h1 text-center mt-4">Tech Stack</div>
-            <div class="row mt-5">
-                <div class="col-4">
-                    <img src="https://cdn.svgporn.com/logos/html-5.svg" alt="" class="techStack">
-                    <!-- <i class="fab fa-html5"></i> -->
-                    <h5 class="ml-4">HTML</h5>
-                </div>
-                <div class="col-4">
-                    <img src="https://cdn.svgporn.com/logos/css-3.svg" alt="" class="techStack">
-                    <h5 class="ml-4">CSS</h5>
-                </div>
-
-                <div class="col-4">
-                    <img src="https://cdn.svgporn.com/logos/git-icon.svg" alt="" class="techStack">
-                    <h5 class="ml-4">Git</h5>
-                </div>
-                <div class="col-4 mt-5">
-                    <img src="https://cdn.svgporn.com/logos/javascript.svg" alt="" class="techStack">
-                    <h5 class="ml-1">Javascript</h5>
-                </div>
-                <div class="col-4 mt-5">
-                    <img src="https://cdn.svgporn.com/logos/bootstrap.svg" alt="" class="techStack">
-                    <h5>BootStrap </h5>
-                </div>
-                <div class="col-4 mt-5">
-                    <img src="https://cdn.svgporn.com/logos/jquery.svg" alt="" class="techStack">
-                    <h5 class="ml-3">jQuery</h5>
+            
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 justify-content-center" >
+                <div id="techStack">
+                    <div class="container justify-content-center mt-3">
+                        <h1 class="text-center font-weight-bold py-3">Tech Stack</h1>
+                        <div class="row justify-content-around px-5 pb-5">
+                            <div class="col-6 col-md-4 col-lg-4 mb-4 text-center">
+                                <img src="https://cdn.svgporn.com/logos/html-5.svg" alt="" class="img-fluid"
+                                    style="width: 160px; height: 160px;">
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-4 mb-4 text-center">
+                                <img src="https://cdn.svgporn.com/logos/css-3.svg" style="width: 160px; height: 160px;" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-4 mb-4 text-center">
+                                <img src="https://cdn.svgporn.com/logos/bootstrap.svg" style="width: 160px; height: 160px;" alt=""
+                                    class="img-fluid">
+                                <div class="h4">Bootstrap</div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-4 mb-4 text-center">
+                                <img src="https://cdn.svgporn.com/logos/javascript.svg" style="width: 160px; height: 160px;" alt=""
+                                    class="img-fluid">
+                                <div class="h4">JavaScript</div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-4 mb-4 text-center">
+                                <img src="https://cdn.svgporn.com/logos/react.svg" style="width: 160px; height: 160px;" alt=""
+                                    class="img-fluid">
+                                <div class="h4">React</div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-4 mb-4 text-center">
+                                <img src="https://cdn.svgporn.com/logos/redux.svg" style="width: 160px; height: 160px;" alt=""
+                                    class="img-fluid">
+                                <div class="h4">Redux</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <hr>
+        </div>
 
 
 
@@ -173,7 +186,7 @@
 
 
 
-
+<!-- 
             <hr>
             <h1 class="text-center mt-5">Projects</h1>
 
@@ -198,11 +211,122 @@
                     </a>
                 </div>
 
+            </div> -->
+
+            <hr>
+            <div id="stats">
+                <div class="container text-center my-5" style="color: #0E6E84;">
+                    <div class="row">
+                        <div class="col-10 offset-2 offset-md-1 col-md-5 offset-lg-0 col-lg-3 mb-2 text-center">
+                            <div style="height:220px;width:220px;border:15px solid  #3498db"
+                                class="text-center rounded-circle">
+                                <p class="font-weight-bold pt-5 h1 text-center">1200+</p>
+                                <span class="h4">Hours Of<br> Coding</span>
+                            </div>
+                        </div>
+                        <div class="col-10 offset-2 offset-md-1 col-md-5 offset-lg-0 col-lg-3 mb-2 text-center">
+                            <div style="height:220px;width:220px;border:15px solid #3498db"
+                                class="text-center rounded-circle">
+                                <p class="font-weight-bold pt-5 h1">150+</p>
+                                <span class="h4">Hackerrank <br>Problems</span>
+                            </div>
+                        </div>
+                        <div class="col-10 offset-2 offset-md-1 col-md-5 offset-lg-0 col-lg-3 mb-2 text-center">
+                            <div style="height:220px;width:220px;border:15px solid #3498db"
+                                class="text-center rounded-circle">
+                                <p class="font-weight-bold pt-5 h1">200+</p>
+                                <span class="h4">GitHub Contributions</span>
+                            </div>
+                        </div>
+                        <div class="col-10 offset-2 offset-md-1 col-md-5 offset-lg-0 col-lg-3 mb-2 text-center">
+                            <div style="height:220px;width:220px;border:15px solid #3498db"
+                                class="text-center rounded-circle">
+                                <p class="font-weight-bold h1 mt-5">100+</p>
+                                <span class="h4">Hours of <br>Soft Skills</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <hr>
+        
+            <div class="row">
+                <div class="col">
+                    <div id="githubCalender" class="p-5 mx-5">
+                        <div class="calendar">
+                            
+                            Loading the data for you.
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        
+
 
         </div>
 
     </div>
+
+
+      
+     <hr>
+                     <!---------Stats-->
+    <!-- <div id="stats">
+        <div class="container text-center my-5" style="color: #0E6E84;">
+            <div class="row">
+                <div class="col-10 offset-2 offset-md-1 col-md-5 offset-lg-0 col-lg-3 mb-2 text-center">
+                    <div style="height:220px;width:220px;border:15px solid #FFC831;"
+                        class="text-center rounded-circle">
+                        <p class="font-weight-bold pt-5 h1 text-center">1200+</p>
+                        <span class="h4">Hours Of<br> Coding</span>
+                    </div>
+                </div>
+                <div class="col-10 offset-2 offset-md-1 col-md-5 offset-lg-0 col-lg-3 mb-2 text-center">
+                    <div style="height:220px;width:220px;border:15px solid #FFC831;"
+                        class="text-center rounded-circle">
+                        <p class="font-weight-bold pt-5 h1">150+</p>
+                        <span class="h4">Hackerrank <br>Problems</span>
+                    </div>
+                </div>
+                <div class="col-10 offset-2 offset-md-1 col-md-5 offset-lg-0 col-lg-3 mb-2 text-center">
+                    <div style="height:220px;width:220px;border:15px solid #FFC831;"
+                        class="text-center rounded-circle">
+                        <p class="font-weight-bold pt-5 h1">250+</p>
+                        <span class="h4">GitHub Contributions</span>
+                    </div>
+                </div>
+                <div class="col-10 offset-2 offset-md-1 col-md-5 offset-lg-0 col-lg-3 mb-2 text-center">
+                    <div style="height:220px;width:220px;border:15px solid #FFC831;"
+                        class="text-center rounded-circle">
+                        <p class="font-weight-bold h1 mt-5">100+</p>
+                        <span class="h4">Hours of <br>Soft Skills</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="row">
+        <div class="col">
+            <div id="githubCalender" class="p-5">
+                <div class="calendar">
+                    
+                    Loading the data for you.
+                </div>
+            </div>
+        </div>
+    </div>  -->
+
+
+    <script>
+        GitHubCalendar(".calendar", "brijkrpr22", { responsive: true });
+    </script>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>    
 </body>
 
 </html>
